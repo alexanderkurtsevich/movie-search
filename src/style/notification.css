@@ -1,0 +1,15 @@
+.notification {
+    height: 25px;
+    margin: 15px 0 0 0;
+
+    font-family: fantasy;
+    font-size: 23px;
+
+    color: #1f6a1f;
+
+    text-align: center;
+}
+
+.notification-error {
+    color: #b92b2b;
+}

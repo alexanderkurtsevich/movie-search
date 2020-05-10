@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100px;
+
+    font-family: fantasy;
+}
+
+.header__image {
+    width: 75px;
+    margin-right: 5px;
+}
+
+.header__subtext {
+    color: #e3cb00;
+}

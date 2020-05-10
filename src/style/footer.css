@@ -1,0 +1,53 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 40px;
+
+    font-family: fantasy;
+    font-size: 22px;
+
+    color: #fff;
+    background-color: transparent;
+    padding: 15px 0;
+
+    max-width: 800px;
+}
+
+.footer__course-title {
+    margin: 10px 0;
+}
+
+.footer__github-link {
+    margin: 10px 0;
+    position: relative;
+
+    color: #fff;
+
+    text-decoration: none;
+}
+
+.footer__github-link::before {
+    position: absolute;
+    top: -4px;
+    left: -40px;
+
+    display: block;
+
+    width: 34px;
+    height: 34px;
+
+    background-image: url("../img/github.png");
+    background-size: cover;
+
+    content: "";
+} 
+
+@media screen and (max-width: 479px) {
+    .footer {
+        flex-direction: column;
+    }
+}
